@@ -1,0 +1,155 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  padding: 5px 100px;
+  background: linear-gradient(to right, #02dabd, #81c784); width: 100%;
+}
+h1 {
+    color: #fff;
+}
+
+/* hover - how the page behaves when you hover*/
+.headerlinks a:hover {
+  background-color: #f9fbf9;
+}
+
+/* Wrapper: puts the links in one row */
+.headerlinks {
+  display: flex;
+  gap: 15px;
+}
+
+/* Each link (logo + text) */
+.headerlinks a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  white-space: nowrap; /* stops the text from breaking onto a new line */
+  text-decoration: none;
+  color: #333;
+  padding: 20px 50px;
+  border: 1px solid #4caf50;
+  border-radius: 4px;
+  height: 10px;
+  transition: background-color 0.3s;
+}
+
+/* Keep the logos small so they don't push the text down */
+.headerlinks img {
+  display: flex;
+  width: 24px;
+  height: 24px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: linear-gradient(to left, #cdcccc, #ffff);
+}
+ main{
+  margin: 0;
+  padding: 50px;
+  box-sizing: border-box;
+}
+main {
+   flex: 1;              /* takes up all the spare space */
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 50px 20px;
+
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 40px;
+}
+.about-me-title {
+  font-size: 50px;
+  margin-bottom: 10px;
+  color: #02dabd;
+}
+h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #02dabd;
+}
+.myprojectlist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 40px;
+}
+
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 5px 50px;
+  color: #fff;
+  background: linear-gradient(to right, #02dabd, #81c784); width: 100%;
+}
+.profile-image {
+  align-self: flex-start;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+/* The list: items in one row */
+.myprojectlist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+/* Each project link */
+.myprojectlist a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #333;
+  padding: 12px 30px;
+  border: 1px solid #4caf50;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+.myprojectlist a:hover {
+  background-color: #5dda5d;
+  
+}
+.myprojectlist {
+  display: flex;
+  gap: 15px;
+}
+l1 {
+  font-size: 20px;
+  color: #02dabd;
+   gap: 10px;
+   padding: 12px 30px;
+}
